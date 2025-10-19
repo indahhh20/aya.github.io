@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kumpulan Tugas Web</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio Tugas Web Saya</h1>
+        <nav id="navigasi-tugas">
+            <button onclick="tampilkanTugas('tugas1/index.html')">Tugas 1</button>
+            <button onclick="tampilkanTugas('tugas2/index.html')">Tugas 2</button>
+            <button onclick="tampilkanTugas('tugas3/index.html')">Tugas 3</button>
+            <button onclick="tampilkanTugas('tugas4/index.html')">Tugas 4</button>
+        </nav>
+    </header>
+
+    <main>
+        <iframe id="frame-tugas" src="tugas1/index.html" frameborder="0"></iframe>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
