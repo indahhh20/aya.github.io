@@ -1,0 +1,247 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; /* Lebih solid dari 400 */
+    line-height: 1.6;
+    color: #333;
+    letter-spacing: 0.5px; /* Tambah spacing untuk kesan kaku */
+}
+body, ul{
+	margin: 0;
+	padding:0;
+}
+
+h1, h2, .skill-list {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 800; /* Lebih kaku dari 700 */
+    text-transform: uppercase;
+    letter-spacing: 3px; /* Spacing lebih lebar untuk tegas */
+}
+
+
+img{
+	max-width: 100%;
+    border-radius: 15px;
+}
+nav{
+	background: linear-gradient(90deg, #6a11cb 0%, #2575fc 100%); /* Gradien ungu-biru yang dramatis */
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	color: white;
+	box-shadow: 0 4px 20px rgba(0,0,0,0.3); /* Bayangan untuk kedalaman */
+}
+header{
+	top:70px;
+	position: relative;
+	margin-bottom: 220px;
+	background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); /* Gradien yang lebih bold */
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: -140px; 
+	color: white;
+	padding: 50px 0; /* Tambah padding untuk kesan luas */
+}
+
+nav ul li{
+	display: inline-block;
+	margin: 0 15px;
+	padding:0;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 14px;
+	font-weight: 700; /* Weight lebih bold */
+}
+
+nav ul{
+	margin: 0 auto;
+	text-align: center;
+	padding: 30px;
+}
+
+h1 {
+    font-size: 100px;
+    color: #ff6b35;
+    text-shadow: 2px 2px 10px rgba(255,107,53,0.8);
+    font-weight: 900; /* Maksimal kaku */
+}
+h2 {
+    font-size: 30px;
+    color: #2575fc;
+    font-weight: 800;
+}
+h1, h2{
+	font-weight: 700;
+}
+p {
+    line-height: 150%;
+    font-weight: 600; /* Lebih tegas */
+}
+ul li{
+	list-style: none;
+	margin: 10px 0;
+}
+
+.button{
+	border: 2px solid #ff6b35; /* Border oranye bold */
+	font-size: 15px;
+	border-radius: 25px; /* Radius lebih besar untuk kesan modern */
+	text-decoration: none;
+	color: #333;
+	padding: 12px 25px;
+	margin-top:40px;
+	display: inline-block;
+	transition: all 0.4s ease; /* Transisi lebih smooth */
+	background: transparent;
+	font-weight: 600;
+}
+.button:hover{
+	background: #ff6b35;
+	color: white;
+	box-shadow: 0 0 20px rgba(255,107,53,0.8); /* Glow effect yang menonjol */
+	transform: translateY(-5px); /* Lift effect */
+}
+figcaption{
+	font-size: 10px;
+	margin-top: 10px;
+	font-family: 'Fira Code', monospace; /* Font teknis untuk caption */
+	color: #666;
+}
+
+.intro-img, .hero-img {
+    box-shadow: 
+        0 10px 30px rgba(0,0,0,0.3), /* Bayangan luar */
+        inset 0 5px 15px rgba(0,0,0,0.1); /* Bayangan antar elemen untuk kedalaman */
+    transition: all 0.3s;
+}
+.intro-img:hover, .hero-img:hover {
+    box-shadow: 
+        0 20px 50px rgba(0,0,0,0.5), /* Bayangan lebih besar saat hover */
+        inset 0 10px 25px rgba(0,0,0,0.2); /* Bayangan antar lebih kuat */
+    transform: scale(1.05);
+}
+.slider-slide img {
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+}
+.slider-slide img:hover {
+    box-shadow: 0 15px 40px rgba(0,0,0,0.4);
+}
+
+.skill-list {
+	text-align: left;
+	font-size: 18px;
+	line-height: 180%;
+	margin: 80px auto 130px;
+	max-width: 800px;
+	padding: 40px 50px;
+	font-family: 'Fira Code', monospace; /* Font monospace untuk nuansa teknis */
+	color: #2c3e50;
+	font-weight: 500;
+	letter-spacing: 0.5px;
+	background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+	border-radius: 15px;
+	box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+	border-left: 5px solid #6a11cb;
+	transition: all 0.3s ease;
+}
+.skill-list:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 12px 35px rgba(0,0,0,0.15);
+}
+.skill-list li {
+	padding: 12px 0;
+	transition: all 0.3s ease;
+	border-bottom: 1px solid rgba(106, 17, 203, 0.1);
+}
+.skill-list li:last-child {
+	border-bottom: none;
+}
+.skill-list li:hover {
+	color: #6a11cb;
+	padding-left: 10px;
+	font-weight: 600;
+}
+.project{
+	margin: 30px 0; 
+	padding: 50px;
+	border-radius: 20px; /* Radius lebih besar untuk kesan smooth */
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	transition: box-shadow 0.3s;
+}
+.project:hover {
+	box-shadow: 0 20px 50px rgba(0,0,0,0.2); /* Hover untuk interaktivitas */
+}
+
+.blue{
+	background: linear-gradient(135deg, #e0f7fa 0%, #6a11cb 50%, #2575fc 100%); /* Gradien multi-warna yang eye-catching */
+}
+
+.project .button{
+	margin-top: 10px;
+}
+footer{
+	text-align: center;
+	margin:100px;
+	background: linear-gradient(135deg, #2575fc 0%, #6a11cb 100%); /* Gradien footer yang kontras */
+	color: white;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+footer h2{
+	font-size: 50px;
+	margin-bottom:100px; 
+	color: #ff6b35; /* Aksen oranye */
+	text-shadow: 2px 2px 10px rgba(255,107,53,0.5);
+}
+.right-alignment{
+	text-align: right;
+}
+
+li.empty{
+	width: 90px;
+	border-top: 2px solid #ff6b35; /* Border oranye lebih tebal */
+	top:-5px;
+	position: relative; 
+}
+
+nav li a{
+	text-decoration: none;
+	color: white;
+	font-weight: 600;
+}
+nav li a:hover{
+	text-decoration: underline;
+	color: #ff6b35; /* Hover oranye */
+}
+
+/* Tambahan untuk section baru */
+.edu-item h3 {
+	color: #ff6b35;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+.edu-item ul {
+	font-family: 'Fira Code', monospace;
+}
+
+/* Animasi fade-in untuk kesan "wow" */
+@keyframes fadeIn {
+	from { opacity: 0; transform: translateY(20px); }
+	to { opacity: 1; transform: translateY(0); }
+}
+.project, header, footer {
+	animation: fadeIn 1s ease-out;
+}
+
+/* Responsivitas tambahan */
+@media (max-width: 768px) {
+	h1 {
+		font-size: 60px;
+	}
+	.skill-list {
+		font-size: 30px;
+	}
+	.project {
+        padding: 20px;
+    }
+}
